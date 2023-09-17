@@ -61,6 +61,11 @@ body {
   height: 2.5rem;
 }
 
+#bottombar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .bubble{
     display: flex;
     justify-content: center;
@@ -71,7 +76,7 @@ body {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 2rem;
-    margin: 8px;
+    margin: 10px 5px 0px 5px;
     cursor: pointer;
 }
 
