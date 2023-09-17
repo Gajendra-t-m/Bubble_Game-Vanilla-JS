@@ -36,6 +36,7 @@ const increasescore = () => {
   document.querySelector("#scoreval").textContent = score;
 };
 
+//logic for comparing a hitnumber number with clicked number
 document.querySelector("#bottombar").addEventListener("click", (details) => {
   let clickedNum = Number(details.target.textContent);
   if (clickedNum === hitrn) {
